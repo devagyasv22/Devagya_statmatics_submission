@@ -1,0 +1,44 @@
+# 🍽️ Zomato Data Analysis
+
+This project performs end-to-end cleaning, transformation, analysis, and visualization of a Zomato restaurant dataset using Python. It aims to uncover meaningful insights about customer preferences, cuisine popularity, pricing, and ratings.
+
+---
+
+## 📦 Dataset Overview
+
+- **File Name:** `data.xlsx`
+- **Format:** Microsoft Excel (`.xlsx`)
+- **Sample Columns:**
+  - `name`
+  - `location`
+  - `cuisines`
+  - `Rating`
+  - `votes`
+  - `approx_cost(for two people)`
+  - `online_order`
+
+---
+
+## 📌 Project Objectives
+
+- Clean and preprocess the dataset
+- Handle missing values and inconsistent data
+- Standardize key columns (ratings, price, location, cuisines)
+- Analyze average rating, votes, and price across cuisines
+- Identify most popular and best-rated cuisines
+- Visualize trends using `matplotlib`
+- Generate actionable insights
+
+---
+
+## 🛠️ Tools & Libraries Used
+
+- **Python 3.x**
+- `pandas` for data manipulation
+- `matplotlib` for plotting
+- `openpyxl` for reading Excel files
+
+Install requirements using:
+
+```bash
+pip install pandas matplotlib openpyxl
